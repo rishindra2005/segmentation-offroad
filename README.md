@@ -69,6 +69,12 @@ The following samples from our V2/V3 runs demonstrate the model's increasing abi
 | **Texture Sync** | ![Sample 2](train_stats_v2/samples/epoch_10/s_1_cc0000875.png) | Grass vs Dirt | Clear Transitions |
 | **Micro Object** | ![Sample 3](train_stats_v2/samples/epoch_9/s_2_mt0000169.png) | Small Rocks | Identified Features |
 
+## 📥 Download Models
+You can find our pre-trained weights for all three phases (Base, V2, and V3) on Hugging Face:
+👉 **[Download Weights Here](https://huggingface.co/risheendra/segfarmer_offroad/tree/main)**
+
+Place the `.pth` files in the root directory or the respective `weights/` folders to run the inference scripts.
+
 ## 🛠️ Installation & Usage
 ```bash
 pip install -r requirements.txt
@@ -77,4 +83,4 @@ python train_segformer_v3.py
 # To run inference with Multiscale TTA:
 python test_segformer.py
 ```
-# segmentation-offroad
+
