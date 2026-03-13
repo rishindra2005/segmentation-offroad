@@ -1,0 +1,7 @@
+
+numpy
+opencv-contrib-python
+pillow
+matplotlib
+tqdm
+ultralytics

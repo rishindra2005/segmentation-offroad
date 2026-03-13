@@ -1,0 +1,7 @@
+ENV_SETUP/
+Offroad_Segmentation_testImages/
+Offroad_Segmentation_Training_Dataset/
+.DS_Store
+__pycache__/
+*.ipynb_checkpoints/
+.env
